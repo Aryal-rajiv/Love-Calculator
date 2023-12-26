@@ -9,4 +9,4 @@ function Calculator()
         </h5>
     )
 }
-export default Calculator();
+export default Calculator
