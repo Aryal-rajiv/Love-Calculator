@@ -1,19 +1,13 @@
-import React from 'react';
-import Navbar from './components/navigation.js';
-import Calculator from './components/calculator.js';
-import './App.css';
+import React from "react";
+import LoveCalculator from "./LoveCalculator";
+import "./App.css";
 
-function App() {
-  return (
+function App(){
+  return(
     <div className="App">
-      <header className="App-header">
-        <Navbar/>
-      </header>
-      <body>
-      <Calculator/>
-      </body>
+      <LoveCalculator />
     </div>
   );
 }
 
-export default App;
+ export default App;
